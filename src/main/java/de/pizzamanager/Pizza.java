@@ -27,7 +27,7 @@ public enum Pizza {
  VEGETARIA(
          "Vegetaria",
          "Tomatensauce, Mozzarella, Paprika, Champignons",
-         9.20,
+         10.50,
          "vegetaria.png"
  ),
 
