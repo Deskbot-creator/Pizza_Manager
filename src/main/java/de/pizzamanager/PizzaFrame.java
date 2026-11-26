@@ -600,6 +600,10 @@ public class PizzaFrame extends JFrame {
     list.add(new JSeparator());
    }
 
+   if (pizza != Pizza.LAVA) {
+    list.add(new JSeparator());
+   }
+
 
    // Bild beim Auswählen aktualisieren
    radio.addActionListener(e -> updateHero());

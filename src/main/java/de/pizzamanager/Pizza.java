@@ -34,7 +34,7 @@ public enum Pizza {
  LAVA(
          "Lava",
          "Chilli, Zwiebeln, Paprika, Lammfleisch, Soja Sauce",
-         10.50,
+         98.50,
          "Lava.jpg"
  ),
 
