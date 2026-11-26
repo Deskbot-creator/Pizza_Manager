@@ -6,7 +6,7 @@ public enum Pizza {
  MARGHERITA(
          "Margherita",
          "Tomatensauce, Mozzarella, Basilikum",
-         8.90,
+         10.50,
          "margherita.png"
  ),
 
