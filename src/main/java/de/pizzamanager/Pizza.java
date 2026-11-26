@@ -41,7 +41,7 @@ public enum Pizza {
  DOENER(
          "Kalbfleisch",
          "Tomatensauce, Kalbfleisch, Hollandaisesuace",
-         11.0,
+         12.50,
          "Dönerpizza.png"
  );
 
