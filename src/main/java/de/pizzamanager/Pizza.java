@@ -31,6 +31,13 @@ public enum Pizza {
          "vegetaria.png"
  ),
 
+ LAVA(
+         "Lava",
+         "Chilli, Zwiebeln, Paprika, Lammfleisch, Soja Sauce",
+         10.50,
+         "Lava.jpg"
+ ),
+
  DOENER(
          "Kalbfleisch",
          "Tomatensauce, Kalbfleisch, Hollandaisesuace",
