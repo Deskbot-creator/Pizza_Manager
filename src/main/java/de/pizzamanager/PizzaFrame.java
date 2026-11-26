@@ -19,7 +19,7 @@ public class PizzaFrame extends JFrame {
 
  private static final Color RED = new Color(139, 36, 39);
  private static final Color DARK = new Color(62, 16, 22);
- private static final Color BG = new Color(247, 247, 249);
+ private static final Color BG = new Color(35, 2, 2);
 
 
  // ==================================================
@@ -463,7 +463,7 @@ public class PizzaFrame extends JFrame {
   panel.setBorder(
           new CompoundBorder(
                   new LineBorder(
-                          new Color(222, 222, 228),
+                          new Color(218, 62, 113),
                           1,
                           true
                   ),
@@ -597,6 +597,10 @@ public class PizzaFrame extends JFrame {
 
    // Trennlinie
    if (pizza != Pizza.VEGETARIA) {
+    list.add(new JSeparator());
+   }
+
+   if (pizza != Pizza.LAVA) {
     list.add(new JSeparator());
    }
 

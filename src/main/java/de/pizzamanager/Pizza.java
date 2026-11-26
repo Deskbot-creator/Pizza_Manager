@@ -6,7 +6,7 @@ public enum Pizza {
  MARGHERITA(
          "Margherita",
          "Tomatensauce, Mozzarella, Basilikum",
-         7.50,
+         8.50,
          "margherita.png"
  ),
 
@@ -27,8 +27,22 @@ public enum Pizza {
  VEGETARIA(
          "Vegetaria",
          "Tomatensauce, Mozzarella, Paprika, Champignons",
-         9.20,
+         10.50,
          "vegetaria.png"
+ ),
+
+ LAVA(
+         "Lava",
+         "Chilli, Zwiebeln, Paprika, Lammfleisch, Soja Sauce",
+         98.50,
+         "Lava.jpg"
+ ),
+
+ DOENER(
+         "Kalbfleisch",
+         "Tomatensauce, Kalbfleisch, Hollandaisesuace",
+         12.50,
+         "Dönerpizza.png"
  );
 
  public final String title, description, image;
