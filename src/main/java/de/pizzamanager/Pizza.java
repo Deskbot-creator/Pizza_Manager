@@ -29,7 +29,14 @@ public enum Pizza {
          "Tomatensauce, Mozzarella, Paprika, Champignons",
          9.20,
          "vegetaria.png"
- );
+ ),
+
+ DOENER(
+         "Kalbfleisch",
+         "Tomatensauce, Kalbfleisch, Hollandaisesuace",
+         11.0,
+         "Dönerpizza.png"
+ )
 
  public final String title, description, image;
  public final double price;
