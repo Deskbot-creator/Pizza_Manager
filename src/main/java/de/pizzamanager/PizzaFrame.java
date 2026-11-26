@@ -89,7 +89,7 @@ public class PizzaFrame extends JFrame {
 
  public PizzaFrame() {
 
-  super("PizzaManager");
+  super("🍕 PizzaManager-CHANGED 🍕");
 
   setDefaultCloseOperation(EXIT_ON_CLOSE);
 
