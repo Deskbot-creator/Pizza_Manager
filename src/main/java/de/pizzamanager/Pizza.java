@@ -36,7 +36,7 @@ public enum Pizza {
          "Tomatensauce, Kalbfleisch, Hollandaisesuace",
          11.0,
          "Dönerpizza.png"
- )
+ );
 
  public final String title, description, image;
  public final double price;
